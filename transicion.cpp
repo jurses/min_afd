@@ -1,7 +1,7 @@
 #include "transicion.hpp"
 namespace CYA{
     transicion_t::transicion_t(void){}
-
+		
     estado_t* transicion_t::obt_estado(char a){
         return est_trans_[a];
     }
